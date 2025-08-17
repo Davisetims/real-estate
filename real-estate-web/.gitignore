@@ -1,45 +1,24 @@
-# Node
-node_modules/
-.pnpm-store/
-dist/
-build/
-.cache/
-.tmp/
-
-# Env & creds
-.env
-.env.*
-!.env.example
-
 # Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-logs/
-*.log
+lerna-debug.log*
 
-# Testing
-coverage/
-.vitest/
-.jest/
+node_modules
+dist
+dist-ssr
+*.local
 
-# Editor/OS
-.DS_Store
-Thumbs.db
-*.swp
-.idea/
+# Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-!.vscode/settings.json
-
-# Tooling
-.eslintcache
-.stylelintcache
-
-# Storybook (if used)
-storybook-static/
-.out/
-
-# Vite
-.vite/
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
